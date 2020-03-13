@@ -41,4 +41,30 @@ function currentLine(line){
         }
       }
 */
+
+function takeANumber(currentLine, newName) {
+    for(i = 0; i < currentLine.length; i++)
+  return("Welcome, $`{newName}`. You are number `${currentLine}` in line.")
+}
+
+function nowServing(line) {
+  if(line.length < 1) {
+    return "There is nobody waiting to be served."
+  } else {
+  var name = line.shift()
+  return `Currently serving ${name}.`
+
+
+
+function nowServing(line){
+  if (line.length < 1) {
+    return "There is nobody waiting to be served!";
+  } else {
+    var name = line.shift()
+  return `Currently serving ${name}.`
+}
+}
+
+
+
     
